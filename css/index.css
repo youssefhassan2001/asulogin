@@ -1,0 +1,447 @@
+body{
+    background-color:rgba(248, 244, 244, 0.89) !important;
+    padding:0;
+    margin:0;
+    box-shadow: none;
+}
+/* nav start */
+.nav{
+    display: flex;
+    background-color: rgb(10, 10, 42);
+    height: 100px;
+    align-items: center;
+}
+.nav h1{
+    padding-left: 20px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.nav .mail{
+    margin-left: 25%;
+}
+a{
+    color:gray;
+}
+a:hover{
+    color: rgb(16, 16, 146);
+}
+.nav .icons{
+     display:flex; 
+    padding-left: 30%;
+}
+img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    align-self: center;
+}
+#facebook:hover{
+  content: url("../img/facebook1.png");
+}
+#twitter:hover{
+  content: url("../img/twitter.png");
+}
+#linkedin:hover{
+  content: url("../img/linkedin1.png");
+}
+#internet:hover {
+  content: url("../img/internet1.png");
+}
+.nav .icons h1:hover{
+color: rgba(20, 20, 173, 0.767);
+}
+/* nav end */
+/* second header start */
+.secheader{
+display: flex;
+align-items: center;
+align-self: center;
+justify-content: center;
+margin-right: 5%;
+background-color: white;
+height: 10%;
+width: 100%;
+}
+.secheader h1{
+    font-size: 3.5em;
+    margin-left: 3%;
+    text-align: center;
+    justify-self: center;
+}
+.secheader img{
+    width: 150px;
+    height: 150px;
+    margin-left:5%
+}
+.cards{
+    width: 1800px;
+    margin-top: 2%;
+    display: flex;
+    margin-left: 30%;
+    justify-content: center;
+
+}
+.cards .contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 50px;
+
+}
+.cards .contain .card{
+    width: 300px;
+    height: 300px;
+    background-color:rgba(248, 244, 244, 0.89);
+    border: none;
+    text-align: center;
+    display: flex;
+    margin-left: 30px;  
+    margin-bottom: 20px;
+    justify-content: center;
+    
+
+}
+.circle{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    align-self: center;
+    background-color:darkorange;
+}
+.circle img{
+    width: 70px;
+    height: 70px;
+    align-self:center;
+    margin-left: 20%;
+}
+.card h3{
+    font-size: 30px;
+}
+.cards .contain .active{
+    background-color:aliceblue;
+    border: 1px solid rgb(100, 88, 88);
+}
+/* second header end */
+/* body start */
+.body {
+    background-color:rgb(255, 255, 255);
+    width: 35%;
+    height: 45%;
+    position: relative;
+    left: 36%;
+}
+
+
+form{
+    padding-left: 20%;
+    padding-top: 2%;
+}
+label{
+    font-size :30px;
+    color:darkturquoise;
+}
+.form-control{
+    width: 70% !important;
+    font-size: 25px !important;
+    height: 60px !important;
+}
+.btn{
+    width: 70% !important;
+    margin-top: 30px !important;
+    font-size: 25px !important;
+}
+#lin{
+    text-decoration:none;
+    font-size: 27px;
+}
+.login,
+.EarlyAdmission,
+.GradServices,
+.FacultyServices,
+.CentersServices,
+.UniversityConference,
+.Application,
+.Blended {
+    background-color:rgba(248, 244, 244, 0.89);
+    height: 94%;
+    padding:30px;
+    margin: 20px;
+    position: relative;
+    top: 20px;
+    display:none;
+}
+.login h1,
+.EarlyAdmission h1,
+.GradServices h1,
+.FacultyServices h1,
+.CentersServices h1,
+.Application h1,
+.Blended h1{
+    padding-left:30px;
+    padding-top:30px;
+    font-weight:bold;
+    font-size: 50px;
+    width: 70%;
+}
+.EarlyAdmission img
+.GradServices img,
+.FacultyServices img,
+.Application img,
+.Blended img
+ {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 70%;
+    bottom: 50%;
+}
+.GradServices p,
+.FacultyServices p,
+.CentersServices p ,
+.Blended p{
+    font-size: 25px;
+    padding-left: 50px;
+    width: 70%;
+}
+.btn:hover{
+    background-color:cornsilk !important;
+    border: 1px solid rgb(37, 128, 231) !important;
+    color:rgb(37, 128, 231)!important;
+}
+.FacultyServices .line .btn,
+.CentersServices .line .btn
+,.UniversityConference .line .btn
+,.Application .line .btn
+,.Blended  .line .btn
+,.EarlyAdmission .line .btn {
+width: 20%!important;
+height: 70px;
+padding-top: 10px;
+background-color: rgb(83, 46, 185);
+
+}
+.line{
+    display:flex;
+    margin-top: 7%;
+}
+.line .btn{
+    width: 30% !important;
+    padding-left: 10px;
+    margin-left: 10px !important;
+}
+.login {
+  display: block;
+  width: 97% !important;
+  height: 95%;
+}
+.EarlyAdmission{
+    display: none;
+}
+.GradServices{
+    display: none;   
+}
+.FacultyServices{
+    display: none;
+}
+.CentersServices{
+    display: none;
+}
+.UniversityConference{
+    display: none;
+}
+.Application{
+    display: none;
+}
+.Blended{
+    display:none
+}
+.login h1{
+    padding:0;
+    margin-top :10%;
+    margin-left: 20%;
+}
+.EarlyAdmission .line .btn{
+    position: relative;
+    bottom: 300px !important;
+    margin-left: 10px !important;
+    width: 25%!important;
+}
+.GradServices h1,
+.CentersServices h1{
+    padding: 50px;
+
+}
+.GradServices h1 {
+    width: 50% !important;
+}
+.GradServices img{
+    width:400px;
+    height: 200px;
+    position: relative;
+    left: 68%;
+    bottom: 45%;
+}
+.GradServices div {
+    width:15% !important;
+    height: 12%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    padding-top:10px;
+    position:relative;
+    font-size:25px !important;
+    bottom: 40%;
+    background-color: rgb(83, 46, 185);
+    left: 3%;
+}
+.FacultyServices img
+{
+position: relative;
+bottom: 30%;
+}
+.FacultyServices div
+{
+position: relative;
+bottom: 55%;
+}
+.CentersServices div{
+    position: relative;
+    bottom:11%;
+    left:1.5%;
+}
+.UniversityConference img{
+    width: 95% !important;
+    height: 90%;
+}
+.UniversityConference .line{
+    position: relative;
+    left: 25%;
+    bottom: 10%;
+}
+.UniversityConference .line .btn{
+margin-left:15px !important;
+}
+.Application h1{
+    width: 50% !important;
+}
+.Application img{
+    position: relative;
+    bottom: 50px;
+}
+.Application .line .btn
+{
+    position: relative;
+    bottom :250px!important;
+}
+.EarlyAdmission img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 70%;
+}
+.Blended img
+{
+   position: relative;
+   bottom: 70% !important;
+   width: 30% !important;
+   left: 68%;
+}
+.Blended .line .btn
+{position: relative;
+  bottom :350px !important;
+  left: 40px;
+  height: 100px;
+  font-size: 27px !important;
+  padding: 25px;
+  margin-left: 15px!important;
+  width: 20%!important;
+}
+/* body end */
+
+/* footer */
+.footer {
+    background-color:rgba(240, 232, 232, 0.89) !important;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    margin-top: 6%;
+}
+.footer .first {
+    height: 80%;
+    display: flex;
+}
+.footer img {
+    margin-bottom: 10%;
+    width: 150px;
+    height: 150px;
+}
+.footer .about {
+margin-left: 5%;
+margin-top:15%;
+}
+.footer .about ul,
+.ImportantLinks ul {
+    position: relative;
+    right: 12%;
+    top: 40px;
+}
+.footer .about li,
+.ImportantLinks li {
+font-size:30px;
+margin-bottom: 30px;
+}
+.footer .about li a
+,.ImportantLinks li a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+}
+.footer .about li a:hover
+,
+.ImportantLinks li a:hover{
+    border-bottom: 1px solid blue;
+}
+.ImportantLinks{
+    margin-top: 15%;
+}
+.FollowUs{
+    margin-top: 15%;
+}
+.FollowUs h1{
+    width: 200px;
+}
+.im{
+    display :flex;
+    margin-top :40px
+}
+.im img {
+    width: 50px;
+    height: 50px;
+}
+.footer.sec{
+    height: 20%;
+}
+.im img:hover{
+    background-color:blue;
+    border-radius: 50%;
+}
+.end {
+    display :flex;
+}
+.end p{
+    margin-top:5%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+.end a
+,.end h5{
+    margin-top:5%;
+}
+.end .a1{
+    margin-left: 10%;
+}
+a{
+    text-decoration: none !important;
+
+}
